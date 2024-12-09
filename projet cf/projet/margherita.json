@@ -1,0 +1,22 @@
+[
+    {   
+        "image":"https://th.bing.com/th/id/OIP.A_7IadfotxHc56iM-XuY5AHaJd?rs=1&pid=ImgDetMain",
+        "nom": "Margherita",
+        "base": "tomate",
+        "ingredients": [
+            "Tomates fraîches",
+            "Mozzarella",
+            "Basilic",
+            "Huile d'olive",
+            "Sel"
+        ],
+        "options_diet": {
+            "halal": false,
+            "vegetarienne": true,
+            "vegane": false,
+            "sans_gluten": false
+        },
+        "prix": 9,
+        "devise": "€"
+    }]
+    

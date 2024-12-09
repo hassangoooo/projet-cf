@@ -1,0 +1,21 @@
+[{ 
+    "image": "https://garage.pizza/wp-content/uploads/2020/10/P1070315-2048x2048.jpeg",
+    "nom": "Napoli",
+    "base": "Mozzarella",
+    "ingredients": [
+        "Tomates ",
+        "onion",
+        "pomme de terre",
+        "Huile d'olive",
+        "Sel",
+        "poulet"
+    ],
+    "options_diet": {
+        "halal": true,
+        "vegetarienne": false
+       
+       
+    },
+    "prix": 13,
+    "devise": "€"
+}]

@@ -1,0 +1,22 @@
+[
+
+    {       "image": "https://th.bing.com/th/id/OIP.eSDxUs3uRMdNtz74mfFzNAHaEU?rs=1&pid=ImgDetMain",
+        "nom": "4 Fromage",
+        "base": "Tomate",
+        "ingredients": [
+            "mozzarella",
+            "brie",
+            "gorgonzola",
+            "chévre"
+            
+        ],
+        "options_diet": {
+            "halal": true,
+            "vegetarienne": true,
+            "vegane": false
+           
+        },
+        "prix": 12.5,
+        "devise": "€"
+    }]
+    

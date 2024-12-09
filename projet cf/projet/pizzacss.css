@@ -1,0 +1,233 @@
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif ;
+ 
+ }
+ body{
+ 
+ background-image: url('https://github.com/DynamicCodingWithAmit/Restaurant-website-design-html-css-Javascript/blob/main/Background2.png?raw=true');
+ background-size: cover;
+ font-size: clamp(10px,4em,20px);
+}
+ :root{
+  --text-color: #ff7b00;
+  --bg-color :   #2f2c2c;
+  --white     : #fff;
+  --black     : #000;
+  --mob-color : #3f3c3c;
+  --footer-col : grey;
+ }
+
+ .container{
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+} 
+
+
+header{
+  background: var(--bg-color);
+  display: flex;
+  justify-content: center;
+ align-items: center;
+ height: 90px;
+}
+nav{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav .logo {
+  z-index: 1;
+}
+.logo {
+  color: var(--white);
+}
+a{
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+ 
+}
+nav .logo a span{
+  color: var(--text-color); 
+}
+
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  font-size: 10px;
+  list-style: none ;
+  z-index: 1;
+
+}
+nav ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: var(--white);
+  position: relative;
+  text-transform: uppercase;
+  transform: 0.3s ease;
+}
+nav ul li a:hover{
+
+color: var(--text-color);
+}
+nav ul li a::before{
+  content: '';
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 0;
+  height: 2.5px;
+  background-color: var(--text-color);
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover::before{
+  width: 100%;
+
+}
+nav .commande {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 24px;
+  border-radius: 5px;
+  color: var(--white);
+  background: var(--text-color);
+  border: 2px solid var(--text-color);
+  outline: none;
+  cursor: pointer;
+  transition: 0,3s ease;
+}
+nav .commande:hover{
+  background: transparent;
+  color: var(--text-color);
+}
+
+main{
+  
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+main .card{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: transparent;
+  color:var(--white);
+  border: 2px solid var(--white);
+}
+
+.heading{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 80px;
+  align-items: center;
+}
+.right{
+  width: 440px;
+  height: 440px;
+  background-image: url('https://www.mydomaine.com/thmb/xAIt1w1S1FU4Qs28KH2edLuUZdk=/1200x1800/filters:fill(auto,1)/Sweet-and-Spicy-Tomato-Basil-Pepperoni-Pizza-1-2ab0dbfad4d64981845253cd51234978.jpg');
+  background-size: cover;
+  border-radius: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right::before{
+  width: 440px;
+  height: 430px;
+  content: '';
+  position: absolute;
+  border-radius: 430px;
+  padding: 10px;
+}
+.left p {
+  color: var(--white);
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.left h1{
+  font-size: 90px;
+  color: var(--white);
+}
+
+div .form-floating{
+  color: var(--text-color);
+  margin-bottom: 50px;
+  size: 100px;
+  width: 50%;
+}
+.contact p {
+  color: var(--white);
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.contact h1{
+  color: var(--text-color);
+}
+div .card-footer{
+  display: flex;
+  background-color: var(--footer-col);
+  justify-content: space-between;
+  
+}
+@media screen and (max-width: 1280px) {
+  nav{
+    padding: 0 50px;
+  }
+  .heading{
+    padding: 250px 50px;
+    z-index: auto;
+  }
+  .left{
+    font-size: 3rem;
+  }
+  .right {
+    width: 450px;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 990px) {
+  header{
+    background-color: var(--mob-color);
+    position: sticky;
+    top: 0;
+    z-index: 9;
+  }
+  nav .logo{
+   font-size: 30px;
+  }
+ 
+  nav ul{
+   position: fixed;
+   top: 90px;
+   left: -100%;
+   max-width: 60%;
+   width: 100%;
+   height: 100vh;
+   background: var(--mob-color);
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-direction: column;
+   padding: 30px 50px;
+   gap: 30px;
+   transition: 0,5s ease-in;
+  }
+  nav ul li a {
+   font-size: 22px;
+  }
+}

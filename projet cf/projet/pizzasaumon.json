@@ -1,0 +1,21 @@
+[
+    {       "image": "https://letakeaway.fr/wp-content/uploads/2019/02/take-away-saumon-600x600.png",
+        "nom": "pizza saumon",
+        "base": "creme",
+        "ingredients": [
+            "mozzarella",
+            "creme fraiche",
+            "saumon fumé",
+            "champignons",
+            "olives",
+            "emmental"
+        ],
+        "options_diet": {
+            "halal": true,
+            "vegetarienne": true,
+            "vegane": true
+           
+        },
+        "prix": 12.5,
+        "devise": "€"
+    }]

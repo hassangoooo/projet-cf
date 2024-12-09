@@ -1,0 +1,21 @@
+[
+{       "image": "https://th.bing.com/th/id/OIP.k_yzwYGilFB1mcw-Li03FwHaE7?w=261&h=180&c=7&r=0&o=5&pid=1.7",
+    "nom": "carbonara",
+    "base": "creme",
+    "ingredients": [
+        "creme fraiche",
+        "emmental",
+        "lardons",
+        "oignons",
+        "oeuf",
+        "persil frais"
+    ],
+    "options_diet": {
+        "halal": true,
+        "vegetarienne": true,
+        "vegane": true
+       
+    },
+    "prix": 12.5,
+    "devise": "€"
+}]

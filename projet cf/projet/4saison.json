@@ -1,0 +1,23 @@
+[
+    {   
+        "image":"https://s37913.pcdn.co/wp-content/uploads/2020/07/Print-Quattro-Pizza-1-1536x1163.jpg",
+        "nom": "4siason",
+        "base": "tomate",
+        "ingredients": [
+            "Tomates fraîches",
+            "Mozzarella",
+            "jombon",
+            "champignons",
+            "artichaut",
+            "olives"
+        ],
+        "options_diet": {
+            "halal": true,
+            "vegetarienne": true,
+            "vegane": false
+            
+        },
+        "prix": 11,
+        "devise": "€"
+    }]
+    
