@@ -1,5 +1,4 @@
-
- *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,11 +7,12 @@
  }
  body{
  
- background-image: url('https://github.com/DynamicCodingWithAmit/Restaurant-website-design-html-css-Javascript/blob/main/Background2.png?raw=true');
+ background-image: url(/imgbackground.png);
  background-size: cover;
  font-size: clamp(10px,4em,20px);
 }
  :root{
+  --primary : #196cbe;
   --text-color: #ff7b00;
   --bg-color :   #2f2c2c;
   --white     : #fff;
@@ -33,7 +33,7 @@ header{
   display: flex;
   justify-content: center;
  align-items: center;
- height: 90px;
+ 
 }
 nav{ 
   display: flex;
@@ -97,7 +97,7 @@ nav ul li a:hover::before{
   width: 100%;
 
 }
-nav .commande {
+nav #commande {
   font-size: 15px;
   font-weight: 500;
   padding: 8px 24px;
@@ -109,7 +109,7 @@ nav .commande {
   cursor: pointer;
   transition: 0,3s ease;
 }
-nav .commande:hover{
+nav #commande:hover{
   background: transparent;
   color: var(--text-color);
 }
@@ -185,6 +185,55 @@ div .card-footer{
   justify-content: space-between;
   
 }
+.panier-container {
+  width: 50%;
+  background-color: var(--footer-col);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin: 20px;
+  text-align: center;
+}
+.btn {
+  margin: 10px;
+}
+.alert{
+  color: var(--black);
+}
+
+.badge{
+  background: blue;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.btn-group {
+  background-color: var(--bg-color);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-outline-primary {
+  color: var(--white);
+  border-color: var(--text-color);
+  margin: 0 5px;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--text-color);
+  border-color: var(--text-color);
+}
+
+.btn-check:checked + .btn-outline-primary {
+  background-color: var(--text-color);
+  border-color: var(--text-color);
+}
+
 @media screen and (max-width: 1280px) {
   nav{
     padding: 0 50px;
@@ -200,34 +249,35 @@ div .card-footer{
     width: 450px;
     height: 450px;
   }
+  .btnfilter{
+    justify-content: center;
+    flex-direction: row;
+  }
 }
 @media screen and (max-width: 990px) {
   header{
     background-color: var(--mob-color);
-    position: sticky;
-    top: 0;
-    z-index: 9;
-  }
-  nav .logo{
-   font-size: 30px;
+   
+   
   }
  
-  nav ul{
-   position: fixed;
-   top: 90px;
-   left: -100%;
-   max-width: 60%;
-   width: 100%;
-   height: 100vh;
+  header{
    background: var(--mob-color);
-   justify-content: flex-start;
-   align-items: flex-start;
+   justify-content: center;
+   align-items: center;
    flex-direction: column;
-   padding: 30px 50px;
-   gap: 30px;
-   transition: 0,5s ease-in;
+   
   }
-  nav ul li a {
-   font-size: 22px;
+  .btnfilter{
+    justify-content: center;
+    flex-direction: row;
   }
+  section{ 
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    transition: 0,5s ease-in;
+   }
 }

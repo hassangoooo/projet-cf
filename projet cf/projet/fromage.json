@@ -2,7 +2,7 @@
 
     {       "image": "https://th.bing.com/th/id/OIP.eSDxUs3uRMdNtz74mfFzNAHaEU?rs=1&pid=ImgDetMain",
         "nom": "4 Fromage",
-        "base": "Tomate",
+        "base": "tomate",
         "ingredients": [
             "mozzarella",
             "brie",

@@ -1,8 +1,9 @@
 [{ 
     "image": "https://garage.pizza/wp-content/uploads/2020/10/P1070315-2048x2048.jpeg",
     "nom": "Napoli",
-    "base": "Mozzarella",
+    "base": "tomate",
     "ingredients": [
+        "Mozzarella",
         "Tomates ",
         "onion",
         "pomme de terre",
