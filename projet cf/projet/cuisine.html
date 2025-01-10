@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="pizzacss.css">
@@ -14,27 +14,84 @@
     <title>Document</title>
 </head>
 <body>
-    <header >
+    <header>
        <div class="container">
         <nav>
             <div class="logo">
-        <a> Pizza<span>Hot</span></a>
+                <a> Pizza<span>Hot</span></a>
+            </div>
+        </nav>
        </div>
-       <ul>
-        <li > <a href="pizzahome.html">home</a></li>
-        <li ><a href="menuhassan.html">Menu</a></li>
-        <li ><a href="pizzaContact.html">Contact</a></li>
-        
-        <li><button id="commande">Votre Commande</button></li>
-       </ul>
-    </nav>
-    </div>
     </header>
-    <section class="heading">
-      
+    <div class="container mt-5">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Pizza</th>
+                    <th>Statut</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>4 saison</td>
+                    <td><select class="btn btn-primary" aria-label="Large select example">
+                        <option selected>commande</option>
+                        <option value="1">En préparation</option>
+                        <option value="2">Préparer</option>
+                        <option value="3">Livrée</option>
+                      </select></td>
+                </tr>
+                <tr>
+                    <td>carbonara</td>
+                    <td><select class="btn btn-primary" aria-label="Large select example">
+                        <option selected>commande</option>
+                        <option value="1">En préparation</option>
+                        <option value="2">Préparer</option>
+                        <option value="3">Livrée</option>
+                      </select></td>
+                </tr>
+                <tr>
+                    <td>4 fromages</td>
+                    <td><select class="btn btn-primary" aria-label="Large select example">
+                        <option selected>commande</option>
+                        <option value="1">En préparation</option>
+                        <option value="2">Préparer</option>
+                        <option value="3">Livrée</option>
+                      </select></td>
+                </tr>
+               
+                <tr>
+                    <td>Margherita</td>
+                    <td><select class="btn btn-primary" aria-label="Large select example">
+                        <option selected>commande</option>
+                        <option value="1">En préparation</option>
+                        <option value="2">Préparer</option>
+                        <option value="3">Livrée</option>
+                      </select></td>
+                </tr>
+               <tr>
+                <td>napoli</td>
+                <td> <select class="btn btn-primary" aria-label="Large select example">
+                    <option selected>commande</option>
+                    <option value="1">En préparation</option>
+                    <option value="2">Préparer</option>
+                    <option value="3">Livrée</option>
+                  </select></td>
 
-    </section>
-    
+               </tr>
+               <tr>
+                <td>pizzasaumon</td>
+                <td><select class="btn btn-primary" aria-label="Large select example">
+                    <option selected>commande</option>
+                    <option value="1">En préparation</option>
+                    <option value="2">Préparer</option>
+                    <option value="3">Livrée</option>
+                  </select></td>
+                
+               </tr>
+                
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
- 
