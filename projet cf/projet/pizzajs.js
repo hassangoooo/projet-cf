@@ -25,6 +25,7 @@ const pizza = [
 
 Promise.all(pizza.map(p => p.then(response => response.json())))
   .then(pizzaData => {
+    console.log(pizzaData);
     window.pizzaData = pizzaData.flat(); 
     afficherLesdonnees(window.pizzaData);
   });
